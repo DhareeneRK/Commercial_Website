@@ -57,12 +57,74 @@ Upload to GitHub Pages for free hosting.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commercial Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tech Haven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #555;
+            border-radius: 5px;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: lightblue;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>My Business</h1>
+        <h1>Tech Haven</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -75,114 +137,51 @@ Upload to GitHub Pages for free hosting.
     </header>
 
     <section id="home" class="section">
-        <h2>Welcome to Our Business<p><sub>Providing quality services to our customers.</sub></p></h2>
-    
-        
+        <h2>Welcome to Tech Haven</h2>
+        <p>Your trusted destination for cutting-edge gadgets and services.</p>
     </section>
 
     <section id="services" class="section">
-        <h2>Our Services<p><sub>We offer a range of high-quality services tailored to your needs<p><sub>Instant Discount<p><sub>Exchange old devices<p><sub>No Cost EMIs<p><sub>Online coupons</sub></p></h2>
-        
-        
+        <h2>Our Offerings</h2>
+        <p>Explore a range of premium tech solutions tailored to your needs.</p>
+        <ul>
+            <li>Exclusive Discounts</li>
+            <li>Device Trade-in</li>
+            <li>Flexible Payment Plans</li>
+            <li>Special Coupons</li>
+        </ul>
     </section>
 
     <section id="about" class="section">
-        <h2>About Us<p><sub>We are dedicated to excellence and customer satisfaction and bring a goodness of health and wellness products to reach the customers,we aim to curate all-natural quality products to enrich your lifestyle.</sub></p></h2>
-        
+        <h2>About Us</h2>
+        <p>At Tech Haven, we specialize in providing top-quality electronics and accessories. Our goal is to enhance your digital experience with the latest innovations.</p>
     </section>
 
     <section id="contact" class="section">
-        <h2>Contact Us<p><sub>Email: contact@mybusiness.com<p><sub>Phone NO: 1234567890<p><sub>Address: Saveetha Block,saveetha Nagar,Thandalam,Chennai<p><sub>Pincode: 602105</sub></p></h2>
-        
+        <h2>Get in Touch</h2>
+        <p>Email: support@techhaven.com</p>
+        <p>Phone No: 9876543210</p>
+        <p>Address: Silicon Tower, Tech Park, Cyber City</p>
+        <p>Pincode: 500001</p>
     </section>
 
     <section id="account" class="section">
-        <h2>User Account<p><sub>Login to manage your account and preferences.</sub></p></h2>
+        <h2>Account Access</h2>
+        <p>Sign in to manage your purchases and preferences.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 My Business. All Rights Reserved.</p>
-        
+        <p>&copy; 2025 Tech Haven. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
-
-```
-##Style.CSS
-```
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
-header {
-    background: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    transition: 0.3s;
-}
-
-nav ul li a:hover {
-    background: #555;
-    border-radius: 5px;
-}
-
-.section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    text-align: center;
-    background: #f4f4f4;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color:pink;
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-}
-
-.social-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.social-links a:hover {
-    text-decoration: underline;
-}
 ```
 
 
 ## OUTPUT
-![dhareeneweb2 sc1](https://github.com/user-attachments/assets/4bea5af2-74d4-4749-bfa8-ceaba4a85bb6)
-![dhareeneweb2 sc2](https://github.com/user-attachments/assets/d3a87436-3cc6-4ca9-a41e-1a13b771e096)
-![dhareeneweb2 sc3](https://github.com/user-attachments/assets/6218e67e-5d64-4473-9970-d7b5dd8aa53f)
+![dhareeneweb2 sc1](https://github.com/user-attachments/assets/eb49eac0-f887-4767-a124-059d39f064ff)
+![dhareeneweb2 sc2](https://github.com/user-attachments/assets/3c6474fc-66c9-452d-9451-f1a2c9598ccd)
+![dhareeneweb2 sc3](https://github.com/user-attachments/assets/97b17311-64c2-44fa-93cf-410cea396e01)
 
 
 
